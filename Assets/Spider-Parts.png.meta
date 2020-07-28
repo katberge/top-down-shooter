@@ -23,6 +23,21 @@ TextureImporter:
   - first:
       213: 3319233505854872367
     second: Spider-Parts_6
+  - first:
+      213: -5980291053203037084
+    second: Spider-Parts_7
+  - first:
+      213: -5218013267983724747
+    second: Spider-Parts_8
+  - first:
+      213: -3364043464825765652
+    second: Spider-Parts_9
+  - first:
+      213: 1392125950850298146
+    second: Spider-Parts_6
+  - first:
+      213: -1891208415175156886
+    second: Spider-Parts_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -229,11 +244,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 66
-        y: 796
-        width: 288
-        height: 317
+        y: 913
+        width: 112
+        height: 196
       alignment: 9
-      pivot: {x: 0.5943833, y: 0.744997}
+      pivot: {x: 0.80617553, y: 0.89133126}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,22 +261,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider-Parts_6
+      name: Spider-Parts_10
       rect:
         serializedVersion: 2
-        x: 428
-        y: 791
-        width: 372
-        height: 332
+        x: 648
+        y: 918
+        width: 119
+        height: 194
       alignment: 9
-      pivot: {x: 0.41649014, y: 0.74562424}
+      pivot: {x: 0.16578944, y: 0.88977176}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2bdd0b9949401e20800000000000000
-      internalID: 3319233505854872367
+      spriteID: a6b514967f311c5e0800000000000000
+      internalID: -1891208415175156886
       vertices: []
       indices: 
       edges: []

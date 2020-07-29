@@ -1,43 +1,34 @@
 fileFormatVersion: 2
-guid: 0711edb92fdc043eba78176be92bff20
+guid: c80debda2a53c4043b35bd7292a86a8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8126390662677709799
-    second: Spider-Parts_0
+      213: 6249027579415188696
+    second: Spider_Head
   - first:
-      213: 5973114320145530935
-    second: Spider-Parts_1
+      213: 2751359779199669205
+    second: Spider_Eyes
   - first:
-      213: -5086736904128095584
-    second: Spider-Parts_2
+      213: -3293048612072841279
+    second: Spider_Mouth
   - first:
-      213: -2723343702233185428
-    second: Spider-Parts_3
+      213: 2719799258105890468
+    second: Spider_ArmL
   - first:
-      213: 6943528540660568649
-    second: Spider-Parts_4
+      213: 6061128785813938402
+    second: Spider_ArmR
   - first:
-      213: 225821635962295450
-    second: Spider-Parts_5
+      213: -3361827041350439641
+    second: Spider_LegR
   - first:
-      213: 3319233505854872367
-    second: Spider-Parts_6
+      213: 1160490595969958435
+    second: Spider_LegL
   - first:
-      213: -5980291053203037084
-    second: Spider-Parts_7
+      213: -3917697765506868149
+    second: Spider_Leg GroupR
   - first:
-      213: -5218013267983724747
-    second: Spider-Parts_8
-  - first:
-      213: -3364043464825765652
-    second: Spider-Parts_9
-  - first:
-      213: 1392125950850298146
-    second: Spider-Parts_6
-  - first:
-      213: -1891208415175156886
-    second: Spider-Parts_10
+      213: 3570225265331327569
+    second: Spider_Leg GroupL
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,148 +126,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spider-Parts_0
+      name: Spider_Head
       rect:
         serializedVersion: 2
-        x: 56
-        y: 1198
-        width: 784
-        height: 764
+        x: 37
+        y: 1162
+        width: 769
+        height: 737
       alignment: 9
-      pivot: {x: 0.49009386, y: 0.093382195}
+      pivot: {x: 0.50000006, y: 0.036835585}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c3b0d6fb2493f80800000000000000
-      internalID: -8126390662677709799
+      spriteID: 8d459a6897109b650800000000000000
+      internalID: 6249027579415188696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider-Parts_1
+      name: Spider_Eyes
       rect:
         serializedVersion: 2
         x: 895
-        y: 1480
-        width: 515
-        height: 472
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 730c217c3d3c4e250800000000000000
-      internalID: 5973114320145530935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider-Parts_2
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 1237
-        width: 263
-        height: 159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0aa13938cb74869b0800000000000000
-      internalID: -5086736904128095584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spider-Parts_3
-      rect:
-        serializedVersion: 2
-        x: 979
-        y: 984
-        width: 352
-        height: 184
+        y: 1405
+        width: 517
+        height: 465
       alignment: 9
-      pivot: {x: 0.21317291, y: 0.58441824}
+      pivot: {x: 0.5, y: 0.43214282}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c63081be45db43ad0800000000000000
-      internalID: -2723343702233185428
+      spriteID: 5d35e70542bce2620800000000000000
+      internalID: 2751359779199669205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider-Parts_4
+      name: Spider_Mouth
       rect:
         serializedVersion: 2
-        x: 984
-        y: 801
-        width: 347
-        height: 149
+        x: 1061
+        y: 1217
+        width: 200
+        height: 107
       alignment: 9
-      pivot: {x: 0.7909604, y: 0.7345565}
+      pivot: {x: 0.5, y: 0.39764234}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9421cd95b6e5c5060800000000000000
-      internalID: 6943528540660568649
+      spriteID: 1cf1e411cbdbc42d0800000000000000
+      internalID: -3293048612072841279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider-Parts_5
+      name: Spider_ArmL
       rect:
         serializedVersion: 2
         x: 66
-        y: 913
-        width: 112
-        height: 196
+        y: 918
+        width: 278
+        height: 183
       alignment: 9
-      pivot: {x: 0.80617553, y: 0.89133126}
+      pivot: {x: 0.12966251, y: 0.62164074}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a94512ad497422300800000000000000
-      internalID: 225821635962295450
+      spriteID: 4a6c5cfd30baeb520800000000000000
+      internalID: 2719799258105890468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spider-Parts_10
+      name: Spider_ArmR
       rect:
         serializedVersion: 2
-        x: 648
-        y: 918
-        width: 119
-        height: 194
+        x: 77
+        y: 707
+        width: 287
+        height: 150
       alignment: 9
-      pivot: {x: 0.16578944, y: 0.88977176}
+      pivot: {x: 0.8393336, y: 0.6484017}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b514967f311c5e0800000000000000
-      internalID: -1891208415175156886
+      spriteID: 2e0a55874847d1450800000000000000
+      internalID: 6061128785813938402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_LegR
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 787
+        width: 120
+        height: 239
+      alignment: 9
+      pivot: {x: 0.7782532, y: 0.8259875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d210c1e146851d0800000000000000
+      internalID: -3361827041350439641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_LegL
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 787
+        width: 125
+        height: 239
+      alignment: 9
+      pivot: {x: 0.21061622, y: 0.8259875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32288f96c04ea1010800000000000000
+      internalID: 1160490595969958435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Leg GroupR
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 759
+        width: 287
+        height: 323
+      alignment: 9
+      pivot: {x: 0.62603825, y: 0.70675176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c1f9d93aa81a9c0800000000000000
+      internalID: -3917697765506868149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider_Leg GroupL
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 759
+        width: 287
+        height: 323
+      alignment: 9
+      pivot: {x: 0.39335266, y: 0.68952245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152d23486fcfb8130800000000000000
+      internalID: 3570225265331327569
       vertices: []
       indices: 
       edges: []

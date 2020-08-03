@@ -10,10 +10,10 @@ TextureImporter:
     second: fish-tail
   - first:
       213: 3683377781802573588
-    second: fish-eye
+    second: fish-eye-right
   - first:
       213: -7553285723431098550
-    second: fish-parts_3
+    second: fish-eye-left
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish-eye
+      name: fish-eye-right
       rect:
         serializedVersion: 2
         x: 290
@@ -161,7 +161,7 @@ TextureImporter:
         width: 143
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,7 +174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fish-parts_3
+      name: fish-eye-left
       rect:
         serializedVersion: 2
         x: 476
@@ -182,7 +182,7 @@ TextureImporter:
         width: 88
         height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

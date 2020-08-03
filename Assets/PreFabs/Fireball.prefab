@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4021866904966022642}
   - component: {fileID: 8882987360509260385}
   - component: {fileID: -4255938108050641716}
+  - component: {fileID: -1350307236528442926}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -98,3 +99,30 @@ MonoBehaviour:
   lifetime: 1
   explosion: {fileID: 8873849465170774215, guid: cb83e979ae3de47649e1fc8db8964a9b,
     type: 3}
+  damage: 1
+--- !u!61 &-1350307236528442926
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7523230246660500171}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.09193063, y: -0.022984982}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6, y: 6}
+    newSize: {x: 6, y: 6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9662519, y: 3.7476683}
+  m_EdgeRadius: 0

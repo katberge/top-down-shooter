@@ -7,6 +7,7 @@ public class EnemyScript : MonoBehaviour
     public int health;
     public float speed;
     public float timeBetweenAttacks;
+    public int damage;
 
     [HideInInspector]
     public Transform player;

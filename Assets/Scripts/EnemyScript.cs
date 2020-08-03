@@ -5,6 +5,16 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     public int health;
+    public float speed;
+    public float timeBetweenAttacks;
+
+    [HideInInspector]
+    public Transform player;
+
+    private void Start() 
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
     public void TakeDamage(int damageAmount)
     {

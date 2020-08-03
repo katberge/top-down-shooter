@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 51e02487735c445d09eba95eef7a1917
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5559089820485374476
+    second: owl-head-front
+  - first:
+      213: -2474661602120656252
+    second: owl-body
+  - first:
+      213: -8135216166276103060
+    second: owl-head-back
+  - first:
+      213: -8444310093301877761
+    second: owl-eye
+  - first:
+      213: 3877499914675806864
+    second: owl-leg-right
+  - first:
+      213: 3931022277176002822
+    second: owl-leg-left
+  - first:
+      213: 5639544760288059130
+    second: owl-wing-right
+  - first:
+      213: 7231061816137660805
+    second: owl-wing-left
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: owl-head-front
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 504
+        width: 303
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.11780694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0255880dbad52d40800000000000000
+      internalID: 5559089820485374476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-body
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 324
+        width: 152
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5184188, y: 0.036062554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a9c4a526c38add0800000000000000
+      internalID: -2474661602120656252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-head-back
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 315
+        width: 290
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64091ebff7e91f80800000000000000
+      internalID: -8135216166276103060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-eye
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 199
+        width: 87
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3fe73c5b8cfca80800000000000000
+      internalID: -8444310093301877761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-leg-right
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 36
+        width: 75
+        height: 120
+      alignment: 9
+      pivot: {x: 0.576379, y: 0.71481574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092ebd6e0a5afc530800000000000000
+      internalID: 3877499914675806864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-leg-left
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 38
+        width: 75
+        height: 120
+      alignment: 9
+      pivot: {x: 0.423621, y: 0.7227718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60909330febcd8630800000000000000
+      internalID: 3931022277176002822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-wing-right
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 28
+        width: 159
+        height: 286
+      alignment: 9
+      pivot: {x: 0.69214827, y: 0.8933372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe92e37410b34e40800000000000000
+      internalID: 5639544760288059130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl-wing-left
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 28
+        width: 159
+        height: 286
+      alignment: 9
+      pivot: {x: 0.3558889, y: 0.8766459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589b6c3f864e95460800000000000000
+      internalID: 7231061816137660805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

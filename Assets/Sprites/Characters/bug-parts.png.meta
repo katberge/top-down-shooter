@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 291fe0d9994204f68b380f447f3e2a94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1691757557275391418
+    second: bug-wing-front
+  - first:
+      213: -9075417231435251028
+    second: bug-wing-back
+  - first:
+      213: -8894045507422461704
+    second: bug-arm-front
+  - first:
+      213: 206500066057476606
+    second: bug-arm-back
+  - first:
+      213: 8283994852928366046
+    second: bug-head
+  - first:
+      213: -6969029357908349993
+    second: bug-body
+  - first:
+      213: -948259149122807063
+    second: bug-eyelid-right
+  - first:
+      213: -8224988710248643453
+    second: bug-eyelid-left
+  - first:
+      213: 1693084385668126831
+    second: bug-eye-right
+  - first:
+      213: 438475222833459425
+    second: bug-eye-left
+  - first:
+      213: -8135240916408105720
+    second: bug-tail
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bug-wing-front
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 524
+        width: 213
+        height: 169
+      alignment: 9
+      pivot: {x: 0.8473259, y: 0.71887714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a8488077ba588e0800000000000000
+      internalID: -1691757557275391418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-wing-back
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 554
+        width: 175
+        height: 141
+      alignment: 9
+      pivot: {x: 0.806126, y: 0.38239866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c7d39c14ad0280800000000000000
+      internalID: -9075417231435251028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-arm-front
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 611
+        width: 174
+        height: 58
+      alignment: 9
+      pivot: {x: 0.11880879, y: 0.4340252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ece1dbb0029480800000000000000
+      internalID: -8894045507422461704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-arm-back
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 529
+        width: 143
+        height: 49
+      alignment: 9
+      pivot: {x: 0.14321002, y: 0.39587653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9537b47b2add200800000000000000
+      internalID: 206500066057476606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-head
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 285
+        width: 231
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5993915, y: 0.121419966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5a5f1ad69a6f270800000000000000
+      internalID: 8283994852928366046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-body
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 264
+        width: 125
+        height: 245
+      alignment: 9
+      pivot: {x: 0.4897959, y: 0.088708624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbaa94f8b8094f90800000000000000
+      internalID: -6969029357908349993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-eyelid-right
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 181
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5585f35b17d2f0800000000000000
+      internalID: -948259149122807063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-eyelid-left
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 164
+        width: 63
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384080c8858fadd80800000000000000
+      internalID: -8224988710248643453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-eye-right
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 158
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685286474b0f7710800000000000000
+      internalID: 1693084385668126831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-eye-left
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 159
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e07ccb54e6c51600800000000000000
+      internalID: 438475222833459425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bug-tail
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 32
+        width: 138
+        height: 80
+      alignment: 9
+      pivot: {x: 0.14876854, y: 0.73916113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80585472d71d91f80800000000000000
+      internalID: -8135240916408105720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

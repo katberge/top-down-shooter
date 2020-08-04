@@ -400,6 +400,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
+  speed: 0
+  timeBetweenAttacks: 0
+  damage: 0
+  player: {fileID: 0}
 --- !u!61 &2448989370446903904
 BoxCollider2D:
   m_ObjectHideFlags: 0

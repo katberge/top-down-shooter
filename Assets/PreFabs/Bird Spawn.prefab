@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 7558607498799739943}
   - component: {fileID: 6062774655892618140}
   - component: {fileID: 7674855645068846538}
-  - component: {fileID: 1109963678}
+  - component: {fileID: 8403019788202312981}
   m_Layer: 8
   m_Name: Bird Spawn
   m_TagString: Enemy
@@ -764,7 +764,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1109963678
+--- !u!114 &8403019788202312981
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 92352214090699064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63bb5d33663a948efb60ce944761d13f, type: 3}
+  m_Script: {fileID: 11500000, guid: 76e0db5d800b34338a2474739ea561ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
@@ -781,6 +781,8 @@ MonoBehaviour:
   timeBetweenAttacks: 3
   damage: 1
   player: {fileID: 0}
+  stopDistance: 10
+  attackSpeed: 3
 --- !u!1 &92352214285290010
 GameObject:
   m_ObjectHideFlags: 0

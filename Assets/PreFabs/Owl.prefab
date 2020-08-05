@@ -5151,9 +5151,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589726376008}
   - component: {fileID: 7473497589726376007}
-  - component: {fileID: 4773582861310273325}
   - component: {fileID: 2448989370446903904}
   - component: {fileID: 6329552027606298640}
+  - component: {fileID: 4172250006023421397}
   m_Layer: 8
   m_Name: Owl
   m_TagString: Enemy
@@ -5200,23 +5200,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4773582861310273325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7473497589726376006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63bb5d33663a948efb60ce944761d13f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 5
-  speed: 0
-  timeBetweenAttacks: 0
-  damage: 0
-  player: {fileID: 0}
 --- !u!61 &2448989370446903904
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5264,6 +5247,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4172250006023421397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7473497589726376006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5d172bfb6d24294a01bb049848101e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  speed: 15
+  timeBetweenAttacks: 3
+  damage: 2
+  player: {fileID: 0}
+  minX: -70
+  minY: -37
+  maxX: 70
+  maxY: 27
+  timeBetweenSummons: 5
+  enemyToSummon: {fileID: 92352214090699064, guid: 9fae92692cb184aef98d26bdbec14dce,
+    type: 3}
 --- !u!1 &7473497589748358621
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895211692527662}
   - component: {fileID: 3984895211692527663}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895211706373722}
   - component: {fileID: 3984895211706373723}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895212063726611}
   - component: {fileID: 3984895212063726608}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 3984895212087684724}
   - component: {fileID: 3984895212087684725}
   - component: {fileID: 3984895212087684730}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Spider
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895212164517889}
   - component: {fileID: 3984895212164517894}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mouth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,7 +459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895212520081073}
   - component: {fileID: 3984895212520081078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leg6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895212589030443}
   - component: {fileID: 3984895212589030440}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895212699636609}
   - component: {fileID: 3984895212699636614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Arm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,7 +705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895213038103620}
   - component: {fileID: 3984895213038103621}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -802,7 +802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3984895213389100909}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895213472219675}
   - component: {fileID: 3984895213472219672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leg4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -921,7 +921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895213559724253}
   - component: {fileID: 3984895213559724226}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leg5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3984895213562013563}
   - component: {fileID: 3984895213562013560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leg3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,10 +1087,20 @@ PrefabInstance:
       propertyPath: m_SpriteSortPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3520757634550622643, guid: 8321e0d00f11e499b97e547350e0f7ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3520757635163681628, guid: 8321e0d00f11e499b97e547350e0f7ae,
         type: 3}
       propertyPath: m_SpriteSortPoint
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520757635163684002, guid: 8321e0d00f11e499b97e547350e0f7ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3520757635163684003, guid: 8321e0d00f11e499b97e547350e0f7ae,
         type: 3}
@@ -1106,6 +1116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fire Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520757635644809141, guid: 8321e0d00f11e499b97e547350e0f7ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3520757635644809142, guid: 8321e0d00f11e499b97e547350e0f7ae,
         type: 3}
@@ -1161,6 +1176,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219368440743858103, guid: 8321e0d00f11e499b97e547350e0f7ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8496958553701108800, guid: 8321e0d00f11e499b97e547350e0f7ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8321e0d00f11e499b97e547350e0f7ae, type: 3}

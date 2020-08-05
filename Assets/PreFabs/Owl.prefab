@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6769008472826281954}
   - component: {fileID: 5177997317615466342}
   - component: {fileID: 1369346473919978673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4822,7 +4822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589276586820}
   - component: {fileID: 7473497589276586821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4905,7 +4905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589547232847}
   - component: {fileID: 7473497589547232880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head (Front)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4987,7 +4987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589575552683}
   - component: {fileID: 7473497589575552684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head (Back)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5069,7 +5069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589656957902}
   - component: {fileID: 7473497589656957903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5154,7 +5154,7 @@ GameObject:
   - component: {fileID: 4773582861310273325}
   - component: {fileID: 2448989370446903904}
   - component: {fileID: 6329552027606298640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Owl
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -5274,7 +5274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589748358622}
   - component: {fileID: 7473497589748358623}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5356,7 +5356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497589763415813}
   - component: {fileID: 7473497589763415814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5437,7 +5437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7473497590366348485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5472,7 +5472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497590645571644}
   - component: {fileID: 7473497590645571645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5554,7 +5554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497590747397282}
   - component: {fileID: 7473497590747397283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5636,7 +5636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7473497591033365150}
   - component: {fileID: 7473497591033365151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}

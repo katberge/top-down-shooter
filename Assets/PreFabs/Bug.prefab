@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5938811698007693529}
   - component: {fileID: 7382959744099117232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Red R Eyelid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6669833706147790240}
   - component: {fileID: 6132223845852476777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Red R Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7367815814102581473}
   - component: {fileID: 4955316427823824604}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Red L Eyelid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4758771073717372664}
   - component: {fileID: 5018117097114009164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Red Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752294703996140}
   - component: {fileID: 7123752294703996139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Eyelid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752294996890073}
   - component: {fileID: 7123752294996890072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Front Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295119390195}
   - component: {fileID: 7123752295119390194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Back Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295133804769}
   - component: {fileID: 7123752295133804768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295159571935}
   - component: {fileID: 7123752295159571934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,7 +761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295164937350}
   - component: {fileID: 7123752295164937349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Front Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295214214980}
   - component: {fileID: 7123752295214214979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Eyelid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -929,7 +929,7 @@ GameObject:
   - component: {fileID: 2260544715845612402}
   - component: {fileID: 8430630037922283562}
   - component: {fileID: 4912241512436610293}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bug
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1044,7 +1044,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295312397438}
   - component: {fileID: 7123752295312397437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295335591745}
   - component: {fileID: 7123752295335591744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Back Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1207,7 +1207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752295374369290}
   - component: {fileID: 7123752295374369289}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,7 +1289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7123752296708937612}
   - component: {fileID: 7123752296708937611}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1371,7 +1371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8438479499537296964}
   - component: {fileID: 1233109460666087793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Red L Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}

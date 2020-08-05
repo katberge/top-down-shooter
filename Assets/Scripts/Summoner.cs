@@ -16,6 +16,10 @@ public class Summoner : EnemyScript
     private float summonTime;
     public GameObject enemyToSummon;
 
+    public float attackSpeed;
+    public float stopDistance;
+    private float attackTime;
+
     // Start is called before the first frame update
     public override void Start()
     {
@@ -42,6 +46,13 @@ public class Summoner : EnemyScript
                 }
             }
         }
+
+        if (Vector2.Distance(transform.position, player.position) < stopDistance) {
+                if (Time.time >= attackTime) {
+                    StartCoroutine(Attack());
+                    attackTime = Time.time + timeBetweenAttacks;
+                }
+            }
     }
 
     // summon minion (bird spawn)
@@ -51,4 +62,18 @@ public class Summoner : EnemyScript
             Instantiate(enemyToSummon, transform.position, transform.rotation);
         }
     }
+
+    IEnumerator Attack() 
+            {
+                player.GetComponent<Player>().TakeDamage(damage);
+                Vector2 originalPosition = transform.position;
+                Vector2 targetPosition = player.position;
+                float percent = 0;
+                while (percent <= 1) {
+                    percent += Time.deltaTime * attackSpeed;
+                    float formula = (-Mathf.Pow(percent, 2) + percent) * 4;
+                    transform.position = Vector2.Lerp(originalPosition, targetPosition, formula);
+                    yield return null;
+                }
+            }
 }

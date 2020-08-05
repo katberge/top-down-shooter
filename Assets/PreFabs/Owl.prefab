@@ -5271,6 +5271,8 @@ MonoBehaviour:
   timeBetweenSummons: 5
   enemyToSummon: {fileID: 92352214090699064, guid: 9fae92692cb184aef98d26bdbec14dce,
     type: 3}
+  attackSpeed: 8
+  stopDistance: 10
 --- !u!1 &7473497589748358621
 GameObject:
   m_ObjectHideFlags: 0

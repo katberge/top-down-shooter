@@ -8,6 +8,8 @@ public class BugAttackBullet : MonoBehaviour
     private Vector2 targetPosition;
     public float speed;
     public int damage;
+    public GameObject explosion;
+
 
     // Start is called before the first frame update
     private void Start()
@@ -19,9 +21,10 @@ public class BugAttackBullet : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Vector2.Distance(transform.position, targetPosition) > 0.1f) {
+        if (Vector2.Distance(transform.position, targetPosition) > 0f) {
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         } else {
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
@@ -30,6 +33,7 @@ public class BugAttackBullet : MonoBehaviour
     {
         if (collision.tag == "Player") {
             playerScript.TakeDamage(damage);
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

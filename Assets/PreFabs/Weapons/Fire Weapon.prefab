@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1252846941561753434}
   m_Layer: 9
   m_Name: Fire Weapon
-  m_TagString: Player
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5262,7 +5262,7 @@ MonoBehaviour:
   health: 5
   speed: 15
   timeBetweenAttacks: 3
-  damage: 2
+  damage: 1
   pickupChance: 50
   pickups:
   - {fileID: 579502576254591566, guid: e31786c8fad7047c9ae03064fc07cfde, type: 3}

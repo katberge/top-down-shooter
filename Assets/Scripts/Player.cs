@@ -65,4 +65,14 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    public void Heal(int healAmount)
+    {
+        if (health + healAmount > 5) {
+            health = 5;
+        } else {
+            health = health + healAmount;   
+        }
+        UpdateHealthUI(health);
+    }
 }

@@ -1034,11 +1034,12 @@ MonoBehaviour:
   speed: 15
   timeBetweenAttacks: 5
   damage: 0
-  pickupChance: 50
+  pickupChance: 60
   pickups:
   - {fileID: 579502576254591566, guid: e31786c8fad7047c9ae03064fc07cfde, type: 3}
   - {fileID: 5327111787261066728, guid: 0f38b6b1922a447fb8a77237fe3649e3, type: 3}
   - {fileID: 8150584670287784803, guid: 3a1083a95a1684407a7735406ef0aca7, type: 3}
+  - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
   player: {fileID: 0}
   stopDistance: 25
   shotPoint: {fileID: 327369467309953635}

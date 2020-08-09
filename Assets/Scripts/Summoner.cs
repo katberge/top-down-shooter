@@ -45,14 +45,14 @@ public class Summoner : EnemyScript
                     anim.SetTrigger("summon");
                 }
             }
-        }
-
-        if (Vector2.Distance(transform.position, player.position) < stopDistance) {
+            
+            if (Vector2.Distance(transform.position, player.position) < stopDistance) {
                 if (Time.time >= attackTime) {
                     StartCoroutine(Attack());
                     attackTime = Time.time + timeBetweenAttacks;
                 }
             }
+        }
     }
 
     // summon minion (bird spawn)

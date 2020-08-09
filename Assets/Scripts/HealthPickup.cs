@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupScript : MonoBehaviour
+public class HealthPickup : MonoBehaviour
 {
-    public GameObject weaponToEquip;
-
+    public int healAmount = 1;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player") {
-            collision.GetComponent<Player>().ChangeWeapon(weaponToEquip);
+            collision.GetComponent<Player>().Heal(healAmount);
             Destroy(gameObject);
         }
     }

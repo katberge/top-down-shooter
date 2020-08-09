@@ -95,11 +95,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0f7f7f38eb489d9cfae516385f9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  lifetime: 2
+  speed: 10
+  lifetime: 1
   explosion: {fileID: 8873849465170774215, guid: cb83e979ae3de47649e1fc8db8964a9b,
     type: 3}
-  damage: 1
+  damage: 3
 --- !u!61 &-2011605876594479900
 BoxCollider2D:
   m_ObjectHideFlags: 0

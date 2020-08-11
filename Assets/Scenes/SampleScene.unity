@@ -1212,7 +1212,46 @@ MonoBehaviour:
   - enemies:
     - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
     count: 2
-    timeBetweenSpawns: 1
+    timeBetweenSpawns: 2
+  - enemies:
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
+    count: 4
+    timeBetweenSpawns: 2
+  - enemies:
+    - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    count: 2
+    timeBetweenSpawns: 3
+  - enemies:
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    count: 5
+    timeBetweenSpawns: 2
+  - enemies:
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    count: 4
+    timeBetweenSpawns: 5
+  - enemies:
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    count: 8
+    timeBetweenSpawns: 4
+  - enemies:
+    - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+    - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
+    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+    count: 12
+    timeBetweenSpawns: 4
   spawnPoints:
   - {fileID: 1390052168}
   - {fileID: 1303052080}

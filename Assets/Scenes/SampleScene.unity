@@ -283,6 +283,36 @@ Transform:
   m_Father: {fileID: 1283710261}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &123870887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 123870888}
+  m_Layer: 0
+  m_Name: Boss Spawn Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &123870888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123870887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &155723308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,11 +1123,6 @@ MonoBehaviour:
     - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
     count: 2
     timeBetweenSpawns: 1
-  - enemies:
-    - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
-    - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
-    count: 2
-    timeBetweenSpawns: 3
   spawnPoints:
   - {fileID: 1390052168}
   - {fileID: 1303052080}
@@ -1118,6 +1143,8 @@ MonoBehaviour:
   - {fileID: 1732974933}
   - {fileID: 680182527}
   timeBetweenWaves: 3
+  boss: {fileID: 1480684462298181254, guid: 8eedaa5c335a54030849da6f9ac40086, type: 3}
+  bossSpawnPoint: {fileID: 123870888}
 --- !u!4 &1091713693
 Transform:
   m_ObjectHideFlags: 0

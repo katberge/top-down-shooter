@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  speed: 20
+  speed: 25
   timeBetweenAttacks: 3
   damage: 1
   pickupChance: 30

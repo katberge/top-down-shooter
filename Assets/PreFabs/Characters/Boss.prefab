@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 546738371}
   - component: {fileID: 546738372}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684460663693783}
   - component: {fileID: 1480684460663693776}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684460698625549}
   - component: {fileID: 1480684460698625550}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Right Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684461333463476}
   - component: {fileID: 1480684461333463477}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684461348077519}
   - component: {fileID: 1480684461348077512}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Left Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684461577291166}
   - component: {fileID: 1480684461577291167}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Left Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684461873930233}
   - component: {fileID: 1480684461873930234}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480684462088417023}
   - component: {fileID: 1480684462088417016}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Right Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,9 +671,10 @@ GameObject:
   - component: {fileID: 2058719123}
   - component: {fileID: 591949928378641814}
   - component: {fileID: 7838052927792573328}
-  m_Layer: 8
+  - component: {fileID: 1077098575149666397}
+  m_Layer: 0
   m_Name: Boss
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -725,7 +726,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.8, y: 9.5}
@@ -762,3 +763,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1077098575149666397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480684462298181254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3609ca675d18b49b38d1254aa3dad7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  enemies:
+  - {fileID: 7123752295247857027, guid: e5f69467d4f3e42758c628b94b481eca, type: 3}
+  - {fileID: 7473497589726376006, guid: fd33cb0c869c2407ca634511865de633, type: 3}
+  - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+  - {fileID: 7903378831803113941, guid: 7251cdd18af72461a93a5db68e3d895e, type: 3}
+  spawnOffset: 15
+  damage: 1

@@ -99,7 +99,7 @@ MonoBehaviour:
   lifetime: 1
   explosion: {fileID: 8873849465170774215, guid: cb83e979ae3de47649e1fc8db8964a9b,
     type: 3}
-  damage: 1
+  damage: 2
 --- !u!61 &-1350307236528442926
 BoxCollider2D:
   m_ObjectHideFlags: 0

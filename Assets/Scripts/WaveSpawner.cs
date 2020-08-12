@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class WaveSpawner : MonoBehaviour
 
     public GameObject boss;
     public Transform bossSpawnPoint;
+    public Slider healthBar;
 
     private void Start()
     {
@@ -69,6 +71,7 @@ public class WaveSpawner : MonoBehaviour
             } else {
                 // once waves are over, send in final boss
                 Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
+                healthBar.gameObject.SetActive(true);
             }
         }
     }

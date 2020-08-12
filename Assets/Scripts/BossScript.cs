@@ -8,6 +8,8 @@ public class BossScript : MonoBehaviour
     public GameObject[] enemies;
     public int spawnOffset;
     public int damage;
+    public GameObject dealthMark;
+    public GameObject dealthParticles;
 
     private int halfHealth;
     private Animator anim;
@@ -23,6 +25,8 @@ public class BossScript : MonoBehaviour
         health -= damageAmount;
         if (health <= 0) {
             Destroy(gameObject);
+            Instantiate(dealthParticles, transform.position, transform.rotation);
+            Instantiate(dealthMark, transform.position, transform.rotation);
         }
 
         if (health <= halfHealth) {

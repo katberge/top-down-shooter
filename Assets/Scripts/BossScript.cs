@@ -39,4 +39,9 @@ public class BossScript : MonoBehaviour
             collision.GetComponent<Player>().TakeDamage(damage);
         }
     }
+
+    public void IntroEffect()
+    {
+        Camera.main.GetComponent<Animator>().SetTrigger("bigShake");
+    }
 }

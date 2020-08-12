@@ -8,6 +8,7 @@ public class EnemyScript : MonoBehaviour
     public float speed;
     public float timeBetweenAttacks;
     public int damage;
+    public GameObject deathExplosion;
 
     public int pickupChance;
     public GameObject[] pickups;
@@ -30,6 +31,7 @@ public class EnemyScript : MonoBehaviour
                 Instantiate(randomPickup, transform.position, randomPickup.transform.rotation);
             }
             Destroy(gameObject);
+            Instantiate(deathExplosion, transform.position, transform.rotation);
         }
     }
 }

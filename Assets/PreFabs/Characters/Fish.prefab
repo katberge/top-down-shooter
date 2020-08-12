@@ -366,6 +366,8 @@ MonoBehaviour:
   speed: 25
   timeBetweenAttacks: 3
   damage: 1
+  deathExplosion: {fileID: 8873849465170774215, guid: 46077b817bb71489b8f760a21e5e63ef,
+    type: 3}
   pickupChance: 30
   pickups:
   - {fileID: 579502576254591566, guid: e31786c8fad7047c9ae03064fc07cfde, type: 3}

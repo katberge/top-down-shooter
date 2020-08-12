@@ -122,6 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  damage: 2
+  damage: 1
   explosion: {fileID: 8873849465170774215, guid: b71cb4315ea894b568e4fb1c7f15bd5f,
     type: 3}

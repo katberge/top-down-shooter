@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8873849465170774201}
   - component: {fileID: 8873849465170774214}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Secondary Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,8 +221,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.9960785, g: 0.14117648, b: 0.80392164, a: 1}
-      maxColor: {r: 0.9960785, g: 0.30980393, b: 0.85098046, a: 1}
+      minColor: {r: 0.9960785, g: 0, b: 0.78823537, a: 1}
+      maxColor: {r: 1, g: 0.5235849, b: 0.8900581, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -3816,7 +3816,8 @@ ParticleSystem:
     enabled: 0
     subEmitters:
     - serializedVersion: 3
-      emitter: {fileID: 0}
+      emitter: {fileID: 8873849465170774201, guid: 49b2054d027064ef490cb6a37aebd288,
+        type: 3}
       type: 2
       properties: 0
       emitProbability: 1

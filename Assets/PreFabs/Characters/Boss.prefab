@@ -789,3 +789,5 @@ MonoBehaviour:
     type: 3}
   soundObject: {fileID: 3842535821615383342, guid: 7b03839b0f26f466791ddd4565401bc2,
     type: 3}
+  neckSound: {fileID: 3662034735689007080, guid: 9c97b53b45ebe4cb086caa50ba6b9d52,
+    type: 3}

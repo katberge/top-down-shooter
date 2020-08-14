@@ -16,7 +16,7 @@ public class BossScript : MonoBehaviour
     private Animator anim;
     private Slider healthBar;
     public GameObject soundObject;
-
+    public GameObject neckSound;
 
     private void Start()
     {
@@ -57,5 +57,10 @@ public class BossScript : MonoBehaviour
     {
         Camera.main.GetComponent<Animator>().SetTrigger("bigShake");
         Instantiate(soundObject, transform.position, transform.rotation);
+    }
+
+    public void NeckCrack()
+    {
+        Instantiate(neckSound, transform.position, transform.rotation);
     }
 }

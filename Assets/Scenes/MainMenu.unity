@@ -372,7 +372,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 147851062}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1584467704}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Rules
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &147851062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +403,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecb595f0950f447259252f803615b73d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68f07497751e54cc4a94ae631a4e11bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -757,7 +768,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 406100875}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1584467704}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GameScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &406100875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,7 +799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 366bc297c381748be8a8e0a749c64436, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37fb896272be94cf89aef49b2042461d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -928,7 +950,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.17254902, g: 0.003921569, b: 0.14117648, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1172,7 +1194,7 @@ GameObject:
   - component: {fileID: 1126982788}
   - component: {fileID: 1126982790}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1216,7 +1238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd5d2dae4fbb1432c8e6540e37f690ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 923c497906e4e47c1a6bdab9dc528fd8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1330,7 +1352,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1165882998}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1584467704}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: About
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1165882998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,7 +1383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1949022b60bfd4479992f4f6b23e16e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca902cef730004cffaaa30a7b6ec8b7e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1559,6 +1592,7 @@ GameObject:
   - component: {fileID: 1584467702}
   - component: {fileID: 1584467701}
   - component: {fileID: 1584467703}
+  - component: {fileID: 1584467704}
   m_Layer: 5
   m_Name: Transition Panel
   m_TagString: Untagged
@@ -1641,6 +1675,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1584467704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584467699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4bfb1c3ff0f4e88961adb594be9444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1761674896
 GameObject:
   m_ObjectHideFlags: 0

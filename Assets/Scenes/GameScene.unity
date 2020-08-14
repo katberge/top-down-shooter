@@ -344,10 +344,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 3984895211669245326}
   speed: 0.5
-  minX: -49
-  maxX: 49
-  minY: -3.5
-  maxY: 3.5
+  minX: -11.5
+  maxX: 11.5
+  minY: -4
+  maxY: 4
 --- !u!4 &155723310
 Transform:
   m_ObjectHideFlags: 0

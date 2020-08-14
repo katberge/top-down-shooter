@@ -9,6 +9,7 @@ public class BugAttackBullet : MonoBehaviour
     public float speed;
     public int damage;
     public GameObject explosion;
+    public GameObject soundObject;
 
 
     // Start is called before the first frame update
@@ -16,6 +17,7 @@ public class BugAttackBullet : MonoBehaviour
     {
         playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         targetPosition = playerScript.transform.position;
+        Instantiate(soundObject, transform.position, transform.rotation);
     }
 
     // Update is called once per frame

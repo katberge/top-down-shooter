@@ -15,6 +15,8 @@ public class BossScript : MonoBehaviour
     private int halfHealth;
     private Animator anim;
     private Slider healthBar;
+    public GameObject soundObject;
+
 
     private void Start()
     {
@@ -54,5 +56,6 @@ public class BossScript : MonoBehaviour
     public void IntroEffect()
     {
         Camera.main.GetComponent<Animator>().SetTrigger("bigShake");
+        Instantiate(soundObject, transform.position, transform.rotation);
     }
 }

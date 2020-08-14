@@ -6,6 +6,7 @@ public class HealthPickup : MonoBehaviour
 {
     public int healAmount = 1;
     public GameObject pickupEffect;
+    public GameObject soundObject;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,6 +14,7 @@ public class HealthPickup : MonoBehaviour
             collision.GetComponent<Player>().Heal(healAmount);
             Destroy(gameObject);
             Instantiate(pickupEffect, transform.position, transform.rotation);
+            Instantiate(soundObject, transform.position, transform.rotation);
         }
     }
 }

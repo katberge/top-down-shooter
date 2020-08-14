@@ -125,3 +125,5 @@ MonoBehaviour:
   healAmount: 1
   pickupEffect: {fileID: 8873849465170774215, guid: 309a102d742564c23905e89349e8331b,
     type: 3}
+  soundObject: {fileID: 6248640302776134526, guid: f15c5d5a5e0fe4eb7942bb585a30be59,
+    type: 3}

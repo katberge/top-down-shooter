@@ -125,3 +125,5 @@ MonoBehaviour:
     type: 3}
   pickupEffect: {fileID: 8873849465170774215, guid: 309a102d742564c23905e89349e8331b,
     type: 3}
+  soundObject: {fileID: 188746030152618993, guid: b05caa73cfe8f4f57af921540c59cdcb,
+    type: 3}

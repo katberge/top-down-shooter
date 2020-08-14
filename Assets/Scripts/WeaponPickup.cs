@@ -6,6 +6,7 @@ public class WeaponPickup : MonoBehaviour
 {
     public GameObject weaponToEquip;
     public GameObject pickupEffect;
+    public GameObject soundObject;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,6 +14,7 @@ public class WeaponPickup : MonoBehaviour
             collision.GetComponent<Player>().ChangeWeapon(weaponToEquip);
             Destroy(gameObject);
             Instantiate(pickupEffect, transform.position, transform.rotation);
+            Instantiate(soundObject, transform.position, transform.rotation);
         }
     }
 }

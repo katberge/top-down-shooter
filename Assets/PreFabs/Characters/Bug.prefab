@@ -1124,7 +1124,7 @@ MonoBehaviour:
   - {fileID: 5327111787261066728, guid: 0f38b6b1922a447fb8a77237fe3649e3, type: 3}
   - {fileID: 8150584670287784803, guid: 3a1083a95a1684407a7735406ef0aca7, type: 3}
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
-  soundObject: {fileID: 5422377678352253124, guid: e0aafdeb53b934b58bf0c1433fa4d6fe,
+  soundObject: {fileID: 5422377678352253124, guid: eec746b643ab94e50bc43faa9bcb6f3d,
     type: 3}
   player: {fileID: 0}
   stopDistance: 25

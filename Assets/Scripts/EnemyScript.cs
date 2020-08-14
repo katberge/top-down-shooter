@@ -12,6 +12,7 @@ public class EnemyScript : MonoBehaviour
 
     public int pickupChance;
     public GameObject[] pickups;
+    public GameObject soundObject;
 
     [HideInInspector]
     public Transform player;
@@ -31,6 +32,7 @@ public class EnemyScript : MonoBehaviour
                 Instantiate(randomPickup, transform.position, randomPickup.transform.rotation);
             }
             Destroy(gameObject);
+            Instantiate(soundObject, transform.position, transform.rotation);
             Instantiate(deathExplosion, transform.position, transform.rotation);
         }
     }

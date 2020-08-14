@@ -376,6 +376,8 @@ MonoBehaviour:
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
+  soundObject: {fileID: 5422377678352253124, guid: e0aafdeb53b934b58bf0c1433fa4d6fe,
+    type: 3}
   player: {fileID: 0}
   stopDistance: 10
   attackSpeed: 8

@@ -21,14 +21,18 @@ public class WaveSpawner : MonoBehaviour
     private int currentWaveIndex;
     private Transform player;
     private bool finishedSpawning;
+    private bool bossWave = false;
 
     public GameObject boss;
     public Transform bossSpawnPoint;
     public Slider healthBar;
 
+    private SceneTransitions sceneTransitions;
+
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        sceneTransitions = FindObjectOfType<SceneTransitions>();
         StartCoroutine(StartNextWave(currentWaveIndex));
     }
 
@@ -70,8 +74,15 @@ public class WaveSpawner : MonoBehaviour
                 StartCoroutine(StartNextWave(currentWaveIndex));
             } else {
                 // once waves are over, send in final boss
+                bossWave = true;
                 Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
                 healthBar.gameObject.SetActive(true);
+            }
+        }
+
+        if (bossWave == true) {
+            if (GameObject.FindGameObjectsWithTag("Boss").Length == 0 && GameObject.FindGameObjectsWithTag("Enemy").Length == 0) {
+                sceneTransitions.LoadScene("Win");
             }
         }
     }

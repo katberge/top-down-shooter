@@ -100,7 +100,7 @@ MonoBehaviour:
   explosion: {fileID: 8873849465170774215, guid: cb83e979ae3de47649e1fc8db8964a9b,
     type: 3}
   damage: 1
-  soundObject: {fileID: 1023672351410924332, guid: 48d0682bd80c44876bb231ae307240b3,
+  soundObject: {fileID: 7681244064172344719, guid: 05a33d0c0d6c949aaac2123d9559ca5d,
     type: 3}
 --- !u!61 &-3375909770795189117
 BoxCollider2D:

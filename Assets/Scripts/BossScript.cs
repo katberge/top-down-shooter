@@ -5,6 +5,13 @@ using UnityEngine.UI;
 
 public class BossScript : MonoBehaviour
 {
+    
+    private Transform player;
+    public float attackSpeed;
+    public float stopDistance;
+    private float attackTime;
+    public float timeBetweenAttacks;
+
     public int health;
     public GameObject[] enemies;
     public int spawnOffset;
@@ -20,11 +27,38 @@ public class BossScript : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         halfHealth = health / 2;
         anim = GetComponent<Animator>();
         healthBar = FindObjectOfType<Slider>();
         healthBar.maxValue = health;
         healthBar.value = health;
+    }
+
+    private void Update()
+    {
+        if (player != null) {
+            if (Vector2.Distance(transform.position, player.position) < stopDistance) {
+                if (Time.time >= attackTime) {
+                    StartCoroutine(Attack());
+                    attackTime = Time.time + timeBetweenAttacks;
+                }
+            }
+        }
+    }
+
+    IEnumerator Attack() 
+    {
+        player.GetComponent<Player>().TakeDamage(damage);
+        Vector2 originalPosition = transform.position;
+        Vector2 targetPosition = player.position;
+        float percent = 0;
+        while (percent <= 1) {
+            percent += Time.deltaTime * attackSpeed;
+            float formula = (-Mathf.Pow(percent, 2) + percent) * 4;
+            transform.position = Vector2.Lerp(originalPosition, targetPosition, formula);
+            yield return null;
+        }
     }
 
     public void TakeDamage(int damageAmount)
@@ -44,13 +78,6 @@ public class BossScript : MonoBehaviour
 
         GameObject randomEnemy = enemies[Random.Range(0, enemies.Length)];
         Instantiate(randomEnemy, transform.position + new Vector3(spawnOffset, spawnOffset, 0), transform.rotation);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player") {
-            collision.GetComponent<Player>().TakeDamage(damage);
-        }
     }
 
     public void IntroEffect()

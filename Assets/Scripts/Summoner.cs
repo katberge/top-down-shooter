@@ -64,16 +64,16 @@ public class Summoner : EnemyScript
     }
 
     IEnumerator Attack() 
-            {
-                player.GetComponent<Player>().TakeDamage(damage);
-                Vector2 originalPosition = transform.position;
-                Vector2 targetPosition = player.position;
-                float percent = 0;
-                while (percent <= 1) {
-                    percent += Time.deltaTime * attackSpeed;
-                    float formula = (-Mathf.Pow(percent, 2) + percent) * 4;
-                    transform.position = Vector2.Lerp(originalPosition, targetPosition, formula);
-                    yield return null;
-                }
-            }
+    {
+        player.GetComponent<Player>().TakeDamage(damage);
+        Vector2 originalPosition = transform.position;
+        Vector2 targetPosition = player.position;
+        float percent = 0;
+        while (percent <= 1) {
+            percent += Time.deltaTime * attackSpeed;
+            float formula = (-Mathf.Pow(percent, 2) + percent) * 4;
+            transform.position = Vector2.Lerp(originalPosition, targetPosition, formula);
+            yield return null;
+        }
+    }
 }

@@ -45,6 +45,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Boss
+    uniqueID: 4047668085
+    locked: 0
+  - name: Owl
+    uniqueID: 925240023
+    locked: 0
+  - name: Bug
+    uniqueID: 1246287693
+    locked: 0
   - name: Fish
     uniqueID: 210187013
+    locked: 0
+  - name: BirdSpawn
+    uniqueID: 3451622555
+    locked: 0
+  - name: Player
+    uniqueID: 563739739
     locked: 0

@@ -790,7 +790,9 @@ MonoBehaviour:
     type: 3}
   dealthParticles: {fileID: 8873849465170774215, guid: d74c7d569a8a7423bb5ed9e6b6adc75c,
     type: 3}
-  soundObject: {fileID: 3842535821615383342, guid: 7b03839b0f26f466791ddd4565401bc2,
+  fallSound: {fileID: 3842535821615383342, guid: 7b03839b0f26f466791ddd4565401bc2,
     type: 3}
   neckSound: {fileID: 3662034735689007080, guid: 9c97b53b45ebe4cb086caa50ba6b9d52,
+    type: 3}
+  deathSound: {fileID: 5422377678352253124, guid: ee69f57cff7d64a6cba3d6b3bc1e4665,
     type: 3}

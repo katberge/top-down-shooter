@@ -22,8 +22,9 @@ public class BossScript : MonoBehaviour
     private int halfHealth;
     private Animator anim;
     private Slider healthBar;
-    public GameObject soundObject;
+    public GameObject fallSound;
     public GameObject neckSound;
+    public GameObject deathSound;
 
     private void Start()
     {
@@ -67,6 +68,7 @@ public class BossScript : MonoBehaviour
         healthBar.value = health;
         if (health <= 0) {
             Destroy(gameObject);
+            Instantiate(deathSound, transform.position, transform.rotation);
             Instantiate(dealthParticles, transform.position, transform.rotation);
             Instantiate(dealthMark, transform.position, transform.rotation);
             healthBar.gameObject.SetActive(false);
@@ -83,7 +85,7 @@ public class BossScript : MonoBehaviour
     public void IntroEffect()
     {
         Camera.main.GetComponent<Animator>().SetTrigger("bigShake");
-        Instantiate(soundObject, transform.position, transform.rotation);
+        Instantiate(fallSound, transform.position, transform.rotation);
     }
 
     public void NeckCrack()

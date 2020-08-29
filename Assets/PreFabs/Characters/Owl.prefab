@@ -5271,7 +5271,7 @@ MonoBehaviour:
   - {fileID: 579502576254591566, guid: e31786c8fad7047c9ae03064fc07cfde, type: 3}
   - {fileID: 5327111787261066728, guid: 0f38b6b1922a447fb8a77237fe3649e3, type: 3}
   - {fileID: 8150584670287784803, guid: 3a1083a95a1684407a7735406ef0aca7, type: 3}
-  soundObject: {fileID: 5422377678352253124, guid: eec746b643ab94e50bc43faa9bcb6f3d,
+  soundObject: {fileID: 5422377678352253124, guid: 2089061a7deb04242b902640d839b1c6,
     type: 3}
   player: {fileID: 0}
   minX: -70

@@ -149,7 +149,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 210187013
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 1442830742901171559, guid: 8f6118b4956e5414c837c434d957c28f,
     type: 3}
@@ -234,7 +234,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 210187013
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 5264184436775662900, guid: 8f6118b4956e5414c837c434d957c28f,
     type: 3}
@@ -376,7 +376,7 @@ MonoBehaviour:
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
   - {fileID: 8192382269782392600, guid: 01f4b471ad2ae48b29fa2cac2f8e0c72, type: 3}
-  soundObject: {fileID: 5422377678352253124, guid: e0aafdeb53b934b58bf0c1433fa4d6fe,
+  soundObject: {fileID: 5422377678352253124, guid: 09e35a9d95d22469483e3570b64ae18a,
     type: 3}
   player: {fileID: 0}
   stopDistance: 10
@@ -449,7 +449,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 210187013
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: -7553285723431098550, guid: 8f6118b4956e5414c837c434d957c28f,
     type: 3}
@@ -531,7 +531,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 210187013
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 2
   m_Sprite: {fileID: 3683377781802573588, guid: 8f6118b4956e5414c837c434d957c28f,
     type: 3}

@@ -1,34 +1,22 @@
 fileFormatVersion: 2
-guid: 31685caef37b6482a809aea695581a75
+guid: efb859df3ab294f96a38ea8717af9dac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1739757938798117926
-    second: colon
+      213: 4593921482425372251
+    second: made-by
   - first:
-      213: 3015133987350859840
-    second: period
+      213: -2908036942015570721
+    second: tutorial-by
   - first:
-      213: -1129501624483168082
-    second: four
+      213: -6837462164015218514
+    second: music
   - first:
-      213: -2255828226067274696
-    second: zero
+      213: -8950291656297665612
+    second: licensed
   - first:
-      213: -6704977164813886704
-    second: quotes-front
-  - first:
-      213: -7679146654012491397
-    second: quotes-back
-  - first:
-      213: -2944951769544957208
-    second: comma
-  - first:
-      213: 4073566544279056574
-    second: parentheses-front
-  - first:
-      213: -1454693660426403988
-    second: parentheses-back
+      213: 2006869896375778714
+    second: attribution
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -126,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: colon
+      name: made-by
       rect:
         serializedVersion: 2
-        x: 46
-        y: 276
-        width: 34
-        height: 82
+        x: 173
+        y: 657
+        width: 1042
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adbb5ce4f532bd7e0800000000000000
-      internalID: -1739757938798117926
+      spriteID: b5e0006af33e0cf30800000000000000
+      internalID: 4593921482425372251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: period
+      name: tutorial-by
       rect:
         serializedVersion: 2
-        x: 47
-        y: 275
-        width: 33
-        height: 29
+        x: 244
+        y: 476
+        width: 866
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 040514af268e7d920800000000000000
-      internalID: 3015133987350859840
+      spriteID: fdcd2750fc394a7d0800000000000000
+      internalID: -2908036942015570721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: four
+      name: music
       rect:
         serializedVersion: 2
-        x: 147
-        y: 256
-        width: 88
-        height: 120
+        x: 161
+        y: 316
+        width: 1128
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea04473c1443350f0800000000000000
-      internalID: -1129501624483168082
+      spriteID: ea003b463647c11a0800000000000000
+      internalID: -6837462164015218514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zero
+      name: licensed
       rect:
         serializedVersion: 2
-        x: 273
-        y: 255
-        width: 86
-        height: 120
+        x: 283
+        y: 151
+        width: 878
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 834e5f62e20b1b0e0800000000000000
-      internalID: -2255828226067274696
+      spriteID: 4bb2c36c82d2ac380800000000000000
+      internalID: -8950291656297665612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quotes-front
+      name: attribution
       rect:
         serializedVersion: 2
-        x: 36
-        y: 172
-        width: 98
-        height: 68
+        x: 309
+        y: 41
+        width: 890
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,92 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01b99280bc223f2a0800000000000000
-      internalID: -6704977164813886704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quotes-back
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 74
-        width: 98
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b79b475ddc03e6590800000000000000
-      internalID: -7679146654012491397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: comma
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 7
-        width: 51
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e26d97f7fd6127d0800000000000000
-      internalID: -2944951769544957208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parentheses-front
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 39
-        width: 75
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb03ba87037388830800000000000000
-      internalID: 4073566544279056574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: parentheses-back
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 39
-        width: 75
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6f7549b2d3efcbe0800000000000000
-      internalID: -1454693660426403988
+      spriteID: a9d37e3b985d9db10800000000000000
+      internalID: 2006869896375778714
       vertices: []
       indices: 
       edges: []

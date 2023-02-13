@@ -40,7 +40,8 @@ public class BossScript : MonoBehaviour
     {
         if (player != null) {
             if (Vector2.Distance(transform.position, player.position) < stopDistance) {
-                if (Time.time >= attackTime) {
+                // do not attack if boss intro animation is playing
+                if (Time.time >= attackTime && !anim.GetCurrentAnimatorStateInfo(0).IsName("bigShake")) {
                     StartCoroutine(Attack());
                     attackTime = Time.time + timeBetweenAttacks;
                 }

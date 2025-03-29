@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BossScript : MonoBehaviour
 {
-    
+
     private Transform player;
     public float attackSpeed;
     public float stopDistance;
@@ -31,17 +31,20 @@ public class BossScript : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         halfHealth = health / 2;
         anim = GetComponent<Animator>();
-        healthBar = FindObjectOfType<Slider>();
+        healthBar = FindAnyObjectByType<Slider>();
         healthBar.maxValue = health;
         healthBar.value = health;
     }
 
     private void Update()
     {
-        if (player != null) {
-            if (Vector2.Distance(transform.position, player.position) < stopDistance) {
+        if (player != null)
+        {
+            if (Vector2.Distance(transform.position, player.position) < stopDistance)
+            {
                 // do not attack if boss intro animation is playing
-                if (Time.time >= attackTime && !anim.GetCurrentAnimatorStateInfo(0).IsName("bigShake")) {
+                if (Time.time >= attackTime && !anim.GetCurrentAnimatorStateInfo(0).IsName("bigShake"))
+                {
                     StartCoroutine(Attack());
                     attackTime = Time.time + timeBetweenAttacks;
                 }
@@ -49,13 +52,14 @@ public class BossScript : MonoBehaviour
         }
     }
 
-    IEnumerator Attack() 
+    IEnumerator Attack()
     {
         player.GetComponent<Player>().TakeDamage(damage);
         Vector2 originalPosition = transform.position;
         Vector2 targetPosition = player.position;
         float percent = 0;
-        while (percent <= 1) {
+        while (percent <= 1)
+        {
             percent += Time.deltaTime * attackSpeed;
             float formula = (-Mathf.Pow(percent, 2) + percent) * 4;
             transform.position = Vector2.Lerp(originalPosition, targetPosition, formula);
@@ -67,7 +71,8 @@ public class BossScript : MonoBehaviour
     {
         health -= damageAmount;
         healthBar.value = health;
-        if (health <= 0) {
+        if (health <= 0)
+        {
             Destroy(gameObject);
             Instantiate(deathSound, transform.position, transform.rotation);
             Instantiate(dealthParticles, transform.position, transform.rotation);
@@ -75,7 +80,8 @@ public class BossScript : MonoBehaviour
             healthBar.gameObject.SetActive(false);
         }
 
-        if (health <= halfHealth) {
+        if (health <= halfHealth)
+        {
             anim.SetTrigger("stage2");
         }
 
